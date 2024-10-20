@@ -26,7 +26,7 @@ To run this project, you need to install the following libraries:
 You can install the required libraries using pip:
 
 ```bash
-pip install gurobipy matplotlib
+pip install -r libraries.txt
 ```
 
 ## Cloning the Repository
