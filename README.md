@@ -22,6 +22,7 @@ The problem can be formulated as follows:
 & \sum_{i+j=k} x(i,j) \le 1 \quad \forall \ k \in [3;15] \quad \textit{\textbf{(At most one queen per anti-diagonal)}}
 \end{align*}
 \]
+```
 
 ## Libraries Required
 To run this project, you need to install the following libraries:
