@@ -13,7 +13,7 @@ This project utilizes the Gurobi optimization library to find the optimal arrang
 The problem can be formulated as follows:
 
 <p align="center">
-	<img src="assets/MathematicalModeling.png" />
+	<img src="assets/MathematicalModeling_.png" />
 </p>
 
 ## Libraries Required
@@ -45,6 +45,6 @@ python 8-QueensProblem.py
 ```
 
 ## Usage
-After installing the required libraries, you can run the script to solve the N-Queens problem and visualize the result. Ensure that you have the Gurobi optimizer installed and properly set up in your environment..
+After installing the required libraries, you can run the script to solve the N-Queens problem and visualize the result. Ensure that you have the Gurobi optimizer installed and properly set up in your environment.
 
 
