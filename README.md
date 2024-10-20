@@ -12,6 +12,7 @@ This project utilizes the Gurobi optimization library to find the optimal arrang
 ## Mathematical Modeling
 The problem can be formulated as follows:
 
+```latex
 \[
 \begin{align*}
 \max \quad & \sum_{i=1}^{8} \sum_{j=1}^{8} x(i,j) \quad  \textit{\textbf{Maximize the total number of queens}}\\
