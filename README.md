@@ -45,6 +45,6 @@ python 8-QueensProblem.py
 ```
 
 ## Usage
-After installing the required libraries, you can run the script to solve the N-Queens problem and visualize the result. Ensure that you have the Gurobi optimizer installed and properly set up in your environment.
+After installing the required libraries, you can run the script to solve the N-Queens problem and visualize the result. Ensure that you have the Gurobi optimizer installed and properly set up in your environment..
 
 
