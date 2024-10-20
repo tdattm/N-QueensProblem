@@ -12,17 +12,9 @@ This project utilizes the Gurobi optimization library to find the optimal arrang
 ## Mathematical Modeling
 The problem can be formulated as follows:
 
-```latex
-\[
-\begin{align*}
-\max \quad & \sum_{i=1}^{8} \sum_{j=1}^{8} x(i,j) \quad  \textit{\textbf{Maximize the total number of queens}}\\
-\text{s.t} \quad & \sum_{j=1}^{8} x(i,j) \le 1 \quad \forall \ i \in [1;8] \quad \textit{\textbf{(At most one queen per row)}}\\
-& \sum_{i=1}^{8} x(i,j) \le 1 \quad \forall \ j \in [1;8] \quad \textit{\textbf{(At most one queen per column)}}\\
-& \sum_{i-j=k} x(i,j) \le 1 \quad \forall \ k \in [-6;6] \quad \textit{\textbf{(At most one queen per main diagonal)}}\\
-& \sum_{i+j=k} x(i,j) \le 1 \quad \forall \ k \in [3;15] \quad \textit{\textbf{(At most one queen per anti-diagonal)}}
-\end{align*}
-\]
-```
+<p align="center">
+	<img src="assets/MathematicalModeling.png" />
+</p>
 
 ## Libraries Required
 To run this project, you need to install the following libraries:
